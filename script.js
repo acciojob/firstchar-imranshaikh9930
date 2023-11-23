@@ -1,10 +1,10 @@
 function firstChar(text) {
   // your code here
-	 if(text.length === 0){
+	     if(text.length === 0){
 
         return "";
-    }
-    text = text.replace(" ","");
+        }
+    text = text.trim();
     return text[0];
 }
 
